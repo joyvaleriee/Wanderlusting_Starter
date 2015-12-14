@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+	<title >Wanderluster: The Social Way to Travel</title>
+	<link rel='stylesheet' href='styles/reset.css'>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+  	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Wanderluster</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Begin Lusting</a></li>
+				<li> <a href="#" class="lightbox-open js-lightbox-open"> Open Lightbox</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plan Your Trip<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Get there</a></li>
+					<li><a href="#">Crash there</a></li>
+					<li role="separator" class="divider"></li>
+					<li class="dropdown-header">Follow Us</li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+	  	</div>
+  	</nav>
+  	<!-- google map will be input into the following div -->
+
+  	<div class = 'googleMap__container js-googleMap__container' id="map">
+
+    	<div class="events-container">
+            
+        </div>
+ 	</div>
+
+ 	<div class='backdrop js--backdrop'></div>
+ 	<div class='lightbox js--lightbox'>
+ 		<div class="close  js-close">X</div>
+ 		This is the light box! 
+ 		<div id="photos" ></div>
+ 	</div>
+
+ 	<footer class="footer--custom">
+		<!-- <div class="navbar navbar-default navbar-fixed-bottom"> -->
+		<div class="container">
+		   <p class="navbar-text pull-left">Built by Valerie with &hearts; and Kitten cuddles</p>
+		   <!-- <a href="https://www.instagram.com/joyvalerieee/" target="_blank" class="navbar-btn btn btn-default pull-right">Follow on Instagram </a> -->
+		   <a href="https://www.instagram.com/joyvalerieee/" target="_blank" class="btn btn-default footer--right">Follow on Instagram </a>
+		</div>
+	<footer>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<script src='javascript/InstagramAPI.js'></script>
+    <script src='javascript/depmanager.js'></script>
+    <script src='javascript/GMapsAPI.js'></script>
+	<script src='javascript/main.js'></script>
+</body>
+</html>

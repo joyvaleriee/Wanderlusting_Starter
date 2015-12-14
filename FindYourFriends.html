@@ -5,6 +5,12 @@
 	<title >Wanderluster: The Social Way to Travel</title>
 	<link rel='stylesheet' href='styles/reset.css'>
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link href="sticky-footer-navbar.css" rel="stylesheet">
+	<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+
 	<link rel='stylesheet' href='styles/main.css'>
 </head>
 
@@ -25,7 +31,7 @@
 		  <ul class="nav navbar-nav">
 			<li class="active"><a href="#">Home</a></li>
 			<li><a href="#about">About</a></li>
-			<li><a href="beginLusting.html">BeginLusting</a></li>
+			<li><a href="#contact">Find Your Friends</a></li>
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plan Your Trip<span class="caret"></span></a>
 			  <ul class="dropdown-menu">
@@ -42,27 +48,15 @@
 	  </div>
 	</nav>
   </nav>
+  	<!-- google map will be input into the following div -->
+  	<div class = 'googleMap__container js-googleMap__container'>
 
+<!--   	<div cal id="googleMap js-googleMap" style="width:500px;height:380px;" ></div>
+ -->
+ 	</div>
 
-      <div id="myCarousel" class="carousel slide">
-		<ol class= "carousel-indicatorstus">
-			<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
-			<li data-target = "#myCarousel" data-slide-to = "1"></li>
-		</ol>
-
-			<div class="carousel-inner">
-					<div class = "item active">
-						<img src= "images/SkyDiving.JPG" alt="Skydiving in Cape Cod" class= "img-responsive">
-					</div>
-					<div class = "item">
-						<img src= "images/raileybeach.png" alt="Railey Beach, Thailand" class= "img-responsive">
-					</div>
-
-			</div>
-		</div>
-
-  <footer class="footer--custom">
-	<!-- <div class="navbar navbar-default navbar-fixed-bottom"> -->
+  <footer class="footer">
+	<div class="navbar navbar-default navbar-fixed-bottom">
 		<div class="container">
 		   <p class="navbar-text pull-left">Built by Valerie with &hearts; and Kitten cuddles</p>
 		   <a href="https://www.instagram.com/joyvalerieee/" target="_blank" class="navbar-btn btn btn-default pull-right">Follow on Instagram </a>
@@ -71,8 +65,8 @@
 
 	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 	<script src='javascript/main.js'></script>
 </body>
