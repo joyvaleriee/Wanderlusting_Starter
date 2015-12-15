@@ -104,6 +104,17 @@ body {
 
 }
 
+#photos {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.instacontainer { 
+	margin-bottom: 1.5rem;
+}
 
 
 

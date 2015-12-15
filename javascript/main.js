@@ -58,6 +58,9 @@ DepManager(APIURL,'google')
         	distance:200
         }
         //document.querySelector('.coords').innerHTML = '<div><b>LAT</b> ' + latLng.lat + ',</div><div><b>LNG</b> ' + latLng.lng + '</div>';
+        
+        //Instagram Function to take coordinates from Google Map 
+        // and input into Instagram API 
         instaSearch.endpoint(
     'media/search', coord
 
@@ -74,11 +77,11 @@ DepManager(APIURL,'google')
         for(x in data.data){
 
 
-          $('#photos').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
+            $('#photos').append('<li class=instacontainer><img class=instaphotos src="'+data.data[x].images.low_resolution.url+'"></li>');
 
         }
 
-        	$('.backdrop , .lightbox').css('display','block');
+            $('.backdrop , .lightbox').css('display','block');
     },
     function(error){
         console.log('failed ', error);
