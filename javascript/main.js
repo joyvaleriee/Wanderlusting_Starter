@@ -13,6 +13,11 @@ $('.js-close').on('click', function(){
 
 
 });
+change the color option
+// $('li').on('click', function(){
+//     $('a').css('background-color',  'rgba(0,0,0,.5)')
+//     $('a').css('color', 'rgba(245, 245, 245, 0.8)')
+// }); 
 
 // for (var i = 4; i>= 0; i--){
 // 	var img = "images/Travel"+i+".png"

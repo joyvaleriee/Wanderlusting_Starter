@@ -16,10 +16,11 @@
 	}*/
 
 body {
-    background-color: rgba(	127,255,212,.2);
+	background-color: rgba(248,248,248,.8);
 }
 .navbar-default{
-	background-color:rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.4);
+	border-color: rgba(231, 231, 231, 0.41);
 }
 
 
@@ -35,8 +36,7 @@ body {
 .googleMap__container {
 	position:relative;
 	top: 100px;
-	margin: auto;
-    width: 90%;
+	margin: 5%;
     /*height is a placeholder for the google maps */
     height: 380px; 
     /*border: 3px solid rgba(119,136,153,1);*/
