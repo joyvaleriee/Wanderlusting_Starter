@@ -40,27 +40,21 @@
 			</div><!--/.nav-collapse -->
 	  	</div>
   	</nav>
+  	<!-- google map will be input into the following div -->
 
-<!-- 	<div class="homeScreenImages"> 
-      	<div id="myCarousel" class="carousel slide">
-			<ol class= "carousel-indicatorstus">
-			<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
-			<li data-target = "#myCarousel" data-slide-to = "1"></li>
-			</ol>
-			<div class="carousel-inner">
-					<div class = "item active">
-						<img src= "images/SkyDiving.JPG" alt="Skydiving in Cape Cod" class= "img-responsive">
-					</div>
-					<div class = "item">
-						<img src= "images/raileybeach.png" alt="Railey Beach, Thailand" class= "img-responsive">
-					</div>
-			</div>
-		</div> -->
-	<div class="homepage__container">
-		<img class="homepage_images img--0">
-		<img class="homepage_images img--1">
-		<img class="homepage_images img--2">
-	</div> 
+  	<div class = 'googleMap__container js-googleMap__container' id="map">
+
+    	<div class="events-container">
+            
+        </div>
+ 	</div>
+
+ 	<div class='backdrop js--backdrop'></div>
+ 	<div class='lightbox js--lightbox'>
+ 		<div class="close  js-close">X</div>
+ 		<div id="photos" ></div>
+ 	</div>
+
  	<footer class="footer--custom">
 		<div class="container--custom">
 		   <p class="footer--text">Built by Valerie with &hearts;, 
@@ -69,6 +63,7 @@
 		   	and Kitten Cuddles</p>
 		</div>
 	<footer>
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 	<script src='javascript/InstagramAPI.js'></script>
