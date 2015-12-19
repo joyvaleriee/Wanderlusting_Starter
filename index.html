@@ -7,10 +7,8 @@
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='styles/main.css'>
 </head>
-
 <body>
-  <nav class="wrapper nav--wrapper">
-	  <nav class="navbar navbar-default navbar-fixed-top">
+  	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 		<div class="navbar-header">
 		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,28 +20,28 @@
 		  <a class="navbar-brand" href="#">Wanderluster</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-		  <ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="beginLusting.html">BeginLusting</a></li>
-			<li class="dropdown">
-			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plan Your Trip<span class="caret"></span></a>
-			  <ul class="dropdown-menu">
-				<li><a href="#">Get there</a></li>
-				<li><a href="#">Crash there</a></li>
-				<li role="separator" class="divider"></li>
-				<li class="dropdown-header">Follow Us</li>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Twitter</a></li>
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="beginLusting.html">Begin Lusting</a></li>
+<!-- 				<li> <a href="#" class="lightbox-open js-lightbox-open"> Open Lightbox</a></li> -->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plan Your Trip<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Get there</a></li>
+					<li><a href="#">Crash there</a></li>
+					<li role="separator" class="divider"></li>
+					<li class="dropdown-header">Follow Us</li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+				  </ul>
+				</li>
 			  </ul>
-			</li>
-		  </ul>
-		</div><!--/.nav-collapse -->
-	  </div>
-	</nav>
-  </nav>
+			</div><!--/.nav-collapse -->
+	  	</div>
+  	</nav>
 
-	<div class="homeScreenImages"> 
+<!-- 	<div class="homeScreenImages"> 
       	<div id="myCarousel" class="carousel slide">
 			<ol class= "carousel-indicatorstus">
 			<li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
@@ -57,22 +55,25 @@
 						<img src= "images/raileybeach.png" alt="Railey Beach, Thailand" class= "img-responsive">
 					</div>
 			</div>
+		</div> -->
+	<div class="homepage__container">
+		<img class="homepage_images img--0">
+		<img class="homepage_images img--1">
+		<img class="homepage_images img--2">
+	</div> 
+ 	<footer class="footer--custom">
+		<div class="container--custom">
+		   <p class="footer--text">Built by Valerie with &hearts;, 
+		   		<a href="https://www.lmgify.com/" target="_blank">Google, </a> 
+		   		<a href="https://www.instagram.com/joyvalerieee/" target="_blank">Instagram, </a> 
+		   	and Kitten Cuddles</p>
 		</div>
-		
-
-  <footer class="footer--custom">
-	<!-- <div class="navbar navbar-default navbar-fixed-bottom"> -->
-		<div class="container">
-		   <p class="navbar-text pull-left">Built by Valerie with &hearts; and Kitten cuddles</p>
-		   <a href="https://www.instagram.com/joyvalerieee/" target="_blank" class="navbar-btn btn btn-default pull-right">Follow on Instagram </a>
-		</div>
-	</footer>
-
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<footer>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<script src='javascript/InstagramAPI.js'></script>
+    <script src='javascript/depmanager.js'></script>
+    <script src='javascript/GMapsAPI.js'></script>
 	<script src='javascript/main.js'></script>
 </body>
 </html>

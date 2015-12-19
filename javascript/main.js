@@ -21,7 +21,7 @@ $('.js-close').on('click', function(){
 
 // for (var i = 4; i>= 0; i--){
 // 	var img = "images/Travel"+i+".png"
-// 	$( "#photos" ).append( "<div style='background-image: src="+img+"' class='thumbnail'></div>" );
+// 	$( ".homepage__container" ).append( "<div style='background-image: src="+img+"' class='homepage__images'></div>" );
 
 // } 
 
