@@ -13,7 +13,7 @@ $('.js-close').on('click', function(){
 
 
 });
-change the color option
+// change the color option
 // $('li').on('click', function(){
 //     $('a').css('background-color',  'rgba(0,0,0,.5)')
 //     $('a').css('color', 'rgba(245, 245, 245, 0.8)')
@@ -81,8 +81,8 @@ DepManager(APIURL,'google')
 
         for(x in data.data){
 
-
-            $('#photos').append('<li class=instacontainer><img class=instaphotos src="'+data.data[x].images.low_resolution.url+'"></li>');
+     
+            $('#photos').append('<li class=instacontainer><img class=instaphotos style=background-image": src="'+data.data[x].images.low_resolution.url+'"></li>');
 
         }
 
