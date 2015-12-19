@@ -10,6 +10,7 @@ li {
 	list-style: none; 
 }
 
+
 .navbar-default{
     background-color: rgba(0, 0, 0, 0.74);
     border-color: rgba(240, 240, 240, 1);
@@ -84,7 +85,9 @@ li {
 	-webkit-box-shadow:0px 0px 5px 5px #444444;
 	box-shadow:0px 0px 5px 5px #444444;
 	display: none; 
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
 
 }
 
@@ -165,7 +168,25 @@ li {
 	background-image: src ="images/Travel2.png";
 }
 
+/*footer link decorations */
+a:link { 
+	text-decoration: none;
+	color: black;
+}
 
+a:hover { 
+	color: pink;
+	text-decoration: none; 
+}
+#footer--links { 
+	text-decoration: none;
+	color: black;
+}
+
+#footer--links:hover {
+	color: pink;
+	text-decoration: none; 
+}
 
 
 
