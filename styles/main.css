@@ -78,7 +78,8 @@ li {
 	position: absolute;
 	top: 6rem; 
 	width: 90%;
-	height: 500px; 
+	margin-top: 15px;
+    height: 85%;
     margin-left: 5%;
     margin-right: 5%;
     background: rgba(51, 51, 51, 0.93);
@@ -136,15 +137,17 @@ li {
 }
 
 .instaphotos {
-	height: 180px;
+	width: 100%; 
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+
 }
 
 .instacontainer { 
 	margin-bottom: 1.5rem;
 	margin-left: 1.5rem;
+	width: 20%; 
 }
 
 .homepage__container {
